@@ -2,6 +2,7 @@ class Page{
     constructor(){
         this.input = createFileInput(f=>{
             console.log(f)
+            if(f.type != "image") return;
             this.filename = f.name.split('.')[0];
             loadImage(f.data,img=>{
                 createCanvas(img.width,img.height);
