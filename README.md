@@ -1,4 +1,4 @@
-# Shape-Maker
+# lite - brite
 ## What it is:
 Converts pictures into litebrite like images
 
